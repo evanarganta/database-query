@@ -1,0 +1,1 @@
+SELECT COUNt(products.productCode) as productCountAvailableInTheDatabase FROM `products`;

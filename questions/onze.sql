@@ -1,0 +1,1 @@
+SELECT orderdetails.productCode, products.productName, SUM(orderdetails.quantityOrdered * orderdetails.priceEach) as totalSalesRevenue FROM orderdetails JOIN products ON orderdetails.productCode = products.productCode GROUP BY orderdetails.productCode, products.productName;

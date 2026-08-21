@@ -1,0 +1,1 @@
+SELECT MAX(products.MSRP) as highestMSRP FROM `products`;

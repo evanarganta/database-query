@@ -1,0 +1,1 @@
+SELECT AVG(products.MSRP) as averageMSRP FROM `products`;

@@ -1,0 +1,1 @@
+SELECT productCode, productName, MSRP FROM products WHERE MSRP = (SELECT MAX(MSRP) FROM products);

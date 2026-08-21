@@ -1,0 +1,1 @@
+SELECT MIN(products.buyPrice) as lowestBuyPrice FROM `products`;
