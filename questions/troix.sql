@@ -1,0 +1,1 @@
+SELECT employees.firstName, employees.lastName, employees.jobTitle, employees.officeCode, offices.city, offices.country FROM employees JOIN offices ON employees.officeCode = offices.officeCode;

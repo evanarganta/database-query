@@ -1,0 +1,1 @@
+SELECT SUM(quantityOrdered * priceEach) as totalPayment FROM `orderdetails`;

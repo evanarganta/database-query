@@ -1,0 +1,1 @@
+SELECT products.productCode, products.productName, productlines.productLine, productlines.textDescription FROM products JOIN productlines ON products.productLine = productlines.productLine;

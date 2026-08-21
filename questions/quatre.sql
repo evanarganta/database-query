@@ -1,0 +1,1 @@
+SELECT orders.orderNumber, orders.orderDate, orders.status, orders.customerNumber, customers.customerName, customers.contactFirstName, customers.contactLastName FROM orders JOIN customers ON orders.customerNumber = customers.customerNumber;

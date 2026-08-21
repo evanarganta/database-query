@@ -1,0 +1,1 @@
+SELECT customers.customerNumber, customers.country, customers.salesRepEmployeeNumber, employees.firstName, employees.lastName FROM customers JOIN employees ON customers.salesRepEmployeeNumber = employees.employeeNumber;
