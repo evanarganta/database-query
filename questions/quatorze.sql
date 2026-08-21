@@ -1,0 +1,1 @@
+SELECT orderNumber, productCode, SUM(priceEach * quantityOrdered) AS howMuchTheyPaid FROM orderdetails GROUP BY orderNumber, productCode;

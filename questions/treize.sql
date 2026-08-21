@@ -1,0 +1,1 @@
+SELECT orderNumber, productCode, (priceEach * quantityOrdered) AS largestSinglePayment FROM orderdetails ORDER BY largestSinglePayment DESC LIMIT 1;
